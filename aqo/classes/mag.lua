@@ -130,11 +130,6 @@ table.insert(standard, class.spells.nuke4)
 table.insert(standard, class.spells.nuke5)
 table.insert(standard, class.spells.sptwincast)
 table.insert(standard, class.spells.orb)
-table.insert(standard, class.spells.summonfrost)
-table.insert(standard, class.spells.companion)
-table.insert(standard, class.spells.auspice)
-table.insert(standard, class.spells.gather)
-table.insert(standard, class.spells.petheal)
 
 class.spellRotations = {
     standard=standard
