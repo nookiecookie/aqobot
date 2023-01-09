@@ -93,16 +93,11 @@ table.insert(class.petBuffs, class.spells.auspice)
 table.insert(class.healAbilities, class.spells.petheal)
 
 --buffs
-class.spells.orb.classes={self}
-table.insert(class.singleBuffs, class.spells.orb)
-class.spells.summonfrost.classes={MAG=true}
-table.insert(class.singleBuffs, class.spells.summonfrost)
-class.spells.summonearth.classes={MAG=true}
-table.insert(class.singleBuffs, class.spells.summonearth)
-class.spells.summonfire.classes={MAG=true}
-table.insert(class.singleBuffs, class.spells.summonfire)
-class.spells.summonsickle.classes={MAG=true}
-table.insert(class.singleBuffs, class.spells.summonsickle)
+table.insert(class.selfBuffs, class.spells.orb)
+table.insert(class.selfBuffs, class.spells.summonfrost)
+table.insert(class.selfBuffs, class.spells.summonearth)
+table.insert(class.selfBuffs, class.spells.summonfire)
+table.insert(class.selfBuffs, class.spells.summonsickle)
 table.insert(class.selfBuffs, class.spells.ds)
 table.insert(class.selfBuffs, common.getAA('Summon Modulation Shard', {opt='SUMMONMODROD', summons='Summoned: Dazzling Modulation Shard', summonMinimum=1}))
 table.insert(class.combatBuffs, common.getAA('Fire Core'))
@@ -129,7 +124,6 @@ table.insert(standard, class.spells.nuke3)
 table.insert(standard, class.spells.nuke4)
 table.insert(standard, class.spells.nuke5)
 table.insert(standard, class.spells.sptwincast)
-table.insert(standard, class.spells.orb)
 
 class.spellRotations = {
     standard=standard
